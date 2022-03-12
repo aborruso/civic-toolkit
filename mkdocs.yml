@@ -1,0 +1,116 @@
+site_name: civic toolkit
+site_url: https://sampleurl.it/
+site_description: civic toolkit
+
+
+repo_url: https://github.com/aborruso/civic-toolkit
+repo_name: civic-toolkit
+edit_uri: edit/master/docs/
+
+copyright: '<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M257.981 272.971 63.638 467.314c-9.373 9.373-24.569 9.373-33.941 0L7.029 444.647c-9.357-9.357-9.375-24.522-.04-33.901L161.011 256 6.99 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L257.981 239.03c9.373 9.372 9.373 24.568 0 33.941zM640 456v-32c0-13.255-10.745-24-24-24H312c-13.255 0-24 10.745-24 24v32c0 13.255 10.745 24 24 24h304c13.255 0 24-10.745 24-24z"></path></svg></span> <b>civic toolkit</b> è un''idea di <a href="http://ondata.it/" target="_blank">onData</a> | licenza <a href="https://creativecommons.org/licenses/by/4.0/deed.it" target="_blank">CC BY 4.0</a>'
+
+theme:
+  name: material
+  highlightjs: true
+  palette:
+    - scheme: preference
+      primary: blue
+#      toggle:
+#        icon: material/weather-night
+#        name: Switch to dark mode
+#    - scheme: slate
+#      primary: indigo
+#      accent: indigo
+#      toggle:
+#        icon: material/weather-sunny
+#        name: Switch to light mode
+
+  language: it
+  favicon: images/favicon.png
+  icon:
+    logo: fontawesome/solid/screwdriver-wrench
+  features:
+    - navigation.top
+#    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.tracking
+    - navigation.indexes
+  font:
+    text: Montserrat
+    code: Fira Code
+  custom_dir: overrides
+
+# foglio di stile personalizzato
+extra_css:
+  - stylesheets/style.css
+
+# menu
+nav:
+  - Home: index.md
+
+#extra:
+#  social:
+#    - icon: fontawesome/solid/rss
+#      link: https://arigadicomando.it/feed_rss_created.xml
+#      name: Feed RSS
+
+plugins:
+- search:
+      lang: it
+- mkdocstrings
+- charts
+- tags
+#- rss
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - javascripts/varie.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
+
+markdown_extensions:
+- admonition
+- attr_list
+- md_in_html
+- footnotes
+- meta
+- mkdocs-click
+- pymdownx.betterem:
+      smart_enable: all
+- pymdownx.caret
+- pymdownx.critic:
+      mode: view
+- pymdownx.details
+- pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+- pymdownx.highlight
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+- pymdownx.tabbed:
+      alternate_style: true
+- pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+- pymdownx.tilde
+- toc:
+      permalink: true
+      toc_depth: 3
+- pymdownx.arithmatex:
+      generic: true
+- pymdownx.keys
