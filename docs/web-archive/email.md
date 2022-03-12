@@ -24,7 +24,7 @@ Ad esempio un'email come quella sottostante:
 </figure>
 
 Il messaggio verrà inserito nella coda di elaborazioni di Internet Archive e non appena possibile verrà elaborato.<br>
-**Non appena** sarà **fatto**, il mittente **riceverà** un'**email** con il **riscontro dettagliato** di quanto fatto. Se ci sono stati errori, verranno indicati nel messaggio.<br>
+**Non appena** sarà **fatto**, il mittente **riceverà** un'**email** con il **riscontro dettagliato**. Se ci sono stati errori, verranno indicati nel messaggio.<br>
 Qui sotto un esempio di risposta:
 
 <figure markdown>
