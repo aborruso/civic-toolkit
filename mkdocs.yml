@@ -48,7 +48,9 @@ extra_css:
 # menu
 nav:
   - Home: index.md
-
+  - Web Archive:
+    - web-archive/index.md
+    - email: web-archive/email.md
 #extra:
 #  social:
 #    - icon: fontawesome/solid/rss
