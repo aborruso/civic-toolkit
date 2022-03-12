@@ -2,9 +2,10 @@
 hide:
 #  - navigation
   - toc
+title: Archiviare pagine su Internet Archive tramite email
 ---
 
-# Archiviare pagine su web archive tramite email
+# Archiviare pagine su Internet Archive tramite email
 
 È una modalità semplicissima, di cui purtroppo non c'è una pagina di documentazione ufficiale:
 

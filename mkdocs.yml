@@ -50,7 +50,16 @@ nav:
   - Home: index.md
   - Web Archive:
     - web-archive/index.md
-    - email: web-archive/email.md
+    - Archiviare pagine web:
+      - Via email: web-archive/email.md
+      - Via estensione browser: web-archive/estensione-browser.md
+      - Via sito: web-archive/web-app.md
+      - Via utility: web-archive/a-riga-di-comando.md
+      - Via API: web-archive/api.md
+    - Visualizzare l'archivio: web-archive/archivio.md
+    - Visualizzare le variazioni: web-archive/differenze.md
+    - Fare l'OCR: web-archive/ocr.md
+
 #extra:
 #  social:
 #    - icon: fontawesome/solid/rss
