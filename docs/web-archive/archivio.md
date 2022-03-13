@@ -16,11 +16,11 @@ Il pervasivo motore di ricerca fa infatti il suo debutto in società nel 1998 e 
 
 Da allora, questa pagina è stata archiviata quasi [**8,5 milioni di volte**](https://web.archive.org/web/*/http://www.google.com/), ed possibile seguirne l'evoluzione nel tempo, con il calendario delle versioni.
 
-In questa pagina, ci sono 3 blocchi principali:
+In questa pagina, ci sono 3 blocchi principali (vedi immagine di sotto):
 
 1. il grafico a barre, che mostra il numero di versioni archiviate per una pagina negli anni. Al click ci si sposta nell'anno visualizzato nella parte bassa;
-2. il calendario giornaliero delle versioni archiviate durante l'anno (la pagina di *default* si apre nell'anno corrente). Per ogni giorno un cerchietto colorato, più è grande, più versioni sono presenti, e al click sul pallino si visualizza l'elenco delle versioni salvate quel giorno;
-3. per l'appunto le versioni archiviate per singolo giorno. Al click sulla versione, rappresentata dall'orario di archiviazione, si aprirà la pagina come era quell'anno, quel giorno a quella ora.
+2. il calendario giornaliero delle versioni archiviate durante l'anno (la pagina di *default* si apre nell'anno corrente). Per ogni giorno un cerchietto colorato: più è grande, più versioni sono presenti. Al click sul pallino si visualizza l'elenco delle versioni salvate quel giorno;
+3. e infine - vedi punto precedente - le versioni archiviate per singolo giorno. Al click sulla versione, rappresentata dall'orario di archiviazione, si aprirà la pagina come era quell'anno, quel giorno a quella ora.
 
 <figure markdown>
   [![](./images/archive_02.png)](https://web.archive.org/web/*/http://www.google.com/)
