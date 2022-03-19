@@ -7,7 +7,7 @@ title: Archiviare pagine su Internet Archive tramite una comoda estensione del b
 
 # Archiviare pagine su Internet Archive tramite un'estensione del browser
 
-Questa - insieme a [quella per email](email.md) - è la modalità più diretta e semplice.
+Questa - insieme a [quella per email](email.md) e quella tramite [pagina web](web-page.md) - è la modalità più diretta e semplice.
 
 L'estensione è disponibile per:
 

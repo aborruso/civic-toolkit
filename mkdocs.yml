@@ -52,8 +52,9 @@ nav:
     - web-archive/index.md
     - Archiviare pagine web:
       - Via email: web-archive/email.md
+      - Via pagina web: web-archive/web-page.md
       - Via estensione browser: web-archive/estensione-browser.md
-      - Via sito: web-archive/web-app.md
+      - Via applicazione web: web-archive/web-app.md
       - Via utility: web-archive/a-riga-di-comando.md
       - Via API: web-archive/api.md
     - Visualizzare l'archivio: web-archive/archivio.md
