@@ -8,7 +8,7 @@ title: Visualizzare su Internet Archive le differenze di due versioni della stes
 # Visualizzare le differenze tra due versioni della stessa pagina
 
 In Internet Archive (di solito) sono [archiviate più versioni](archivio.md) di una stessa pagina web, che è possibile confrontare tra loro.<br>
-Nel numero [📰 9 della newsletter di onData](https://www.getrevue.co/profile/ondata/issues/il-numero-9-della-nostra-newsletter-ci-siamo-messi-un-paio-di-medaglie-988291), ad esempio si raccontava del cambio delle note di *copyright* del sito Italiadomani (il sito del PNRR), di come finalmente i suoi contenuti siano diventati utilizzabili.<br>
+Nel numero [📰 9 della newsletter di onData](https://ondata.substack.com/p/il-numero-9-della-nostra-newsletter-ci-siamo-messi-un-paio-di-medaglie-988291), ad esempio si raccontava del cambio delle note di *copyright* del sito Italiadomani (il sito del PNRR), di come finalmente i suoi contenuti siano diventati utilizzabili.<br>
 A partire dal 3 agosto del 2021, [questa pagina è stata archiviata 39 volte](https://web.archive.org/web/*/https://italiadomani.gov.it/it/copyright.html) (al 12 marzo 2022): come confrontare come prima e dopo e il cambio di licenza?
 
 Per osservare le variazioni tra due date, si può partire dalla [pagina](https://web.archive.org/web/*/https://italiadomani.gov.it/it/copyright.html) delle archiviazioni fatte e poi fare click su [`Changes`](https://web.archive.org/web/changes/https://italiadomani.gov.it/it/copyright.html) (vedi immagine di sotto).
